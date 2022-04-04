@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 a {
@@ -18,6 +18,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.pn {
+color: #000
+}
+
+.pb {
+  color: #fff
+  }
+  
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -155,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #1ab71f;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -212,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #1ab71f;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -291,16 +299,13 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #1ab71f;
   line-height: 0;
 }
 .about .content p:last-child {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
 }
@@ -311,7 +316,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #1ab71f;
   float: left;
   line-height: 0;
 }
@@ -320,7 +325,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #1ab71f;
   margin-left: 60px;
 }
 .facts .count-box p {
@@ -328,19 +333,19 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #ffffff;
 }
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #000000;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #1ab71f;
 }
 
 /*--------------------------------------------------------------
@@ -384,12 +389,12 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #ffffff;
 }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #1ab71f;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -398,12 +403,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #000000;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -427,7 +432,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #1ab71f;
 }
 
 /*--------------------------------------------------------------
@@ -458,7 +463,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #1ab71f;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -536,10 +541,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #1ab71f;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #1ab71f;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -585,10 +590,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #1ab71f;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #1ab71f;
 }
 .services .icon i {
   color: #fff;
@@ -599,7 +604,7 @@ section {
   background: #fff;
 }
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #1ab71f;
 }
 .services .title {
   margin-left: 80px;
@@ -608,10 +613,10 @@ section {
   font-size: 18px;
 }
 .services .title a {
-  color: #343a40;
+  color: #ffffff;
 }
 .services .title a:hover {
-  color: #149ddd;
+  color: #1ab71f;
 }
 .services .description {
   margin-left: 80px;
@@ -691,10 +696,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #1ab71f;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #1ab71f;
 }
 
 /*--------------------------------------------------------------
@@ -711,7 +716,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #1ab71f;
   float: left;
   width: 44px;
   height: 44px;
@@ -733,7 +738,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #1ab71f;
+  color: #000000;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -756,11 +761,11 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #1ab71f;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #1ab71f;
   color: #fff;
 }
 .contact .php-email-form {
@@ -834,7 +839,7 @@ section {
   padding: 10px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #1ab71f;
   border: 0;
   padding: 10px 24px;
   color: #fff;
