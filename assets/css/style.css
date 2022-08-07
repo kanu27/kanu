@@ -3,10 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #000000;
 }
-.centrar{
-  margin:auto;
-  display:block;
-}
+
 a {
   color: #1ab71f;
   text-decoration: none;
